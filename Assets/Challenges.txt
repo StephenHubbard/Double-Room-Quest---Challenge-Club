@@ -1,0 +1,29 @@
+// Check out https://community.gamedev.tv/(thisSpecificThread) to discuss this quest with other members of Challenge Club.
+// If you'd like to discuss this challenge on Discord with other members of Challenge Club, be sure to check out https://discord.gg/abcdefg for the Challenge Club private channel. 
+
+
+// Project file found here ______________________.
+Level 1 Challenges
+
+1) Set up the 'Player2' cube to also move the same way 'Player1' does.  Hint: Check out how the Player1 gameobject is set up in the inspector. 
+
+2) Assign our gameHandler variable to be assigned to our GameHandler class using FindObjectOfType in our Start() function. 
+
+3) Using the Package Manager, import the synty asset Simple FX - Cartoon Particles into our project (https://assetstore.unity.com/packages/vfx/particles/simple-fx-cartoon-particles-67834).
+
+4) Instantiate a particle prefab of choice from the Simple FX asset pack at the position of the pad when a player cube reaches a FinishPad inside our FinishPad.cs script.  
+
+5) Implement some logic to detect if all Player cubes have been destroyed from the Scene.  GameHandler.cs
+
+6) Create a second scene and create a new level to complete.  hint:  Copy and paste our first scene and make modifications from there.  
+
+7) Create a Prefabs folder in our assets folder, and make our Player and Finish Pad objects prefabs we can use in later levels.  
+
+8) Load your second scene using the UnityEngine.SceneManagement namespace when level 1 is complete.  (https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadScene.html)
+
+
+// If you'd like to skip the Level 1 challenges.  The project file with all Level 1 Challenges completed can be found here __________________________. 
+Level 2 Challenges
+
+
+
