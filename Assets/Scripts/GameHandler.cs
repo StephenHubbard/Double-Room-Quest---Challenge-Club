@@ -11,6 +11,6 @@ public class GameHandler : MonoBehaviour
 
     private void Update()
     {
-        //Challenge 5:  Use an if statement inside our Update function to detect if playerObjects is <= 0 and debug.log if that condition is true; 
+        //Challenge 5a:  Use an if statement inside our Update function to detect if playerObjects is <= 0 and debug.log if that condition is true; 
     }
 }
