@@ -11,17 +11,13 @@ public class FinishPad : MonoBehaviour
 
     private void Start()
     {
-        //CHALLENGE 2a:  use in FindObjectOfType to assign gameHandler to our GameHandler class. 
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<PlayerMovement>())
         {
-            //CHALLENGE 4a:    
-            // Hint: Use a SerializeField at the top of this script to assign a prefab of choice in the inspector you'd like to spawn into your scene.  
-            // (https://docs.unity3d.com/ScriptReference/Object.Instantiate.html)
-
             Destroy(other.gameObject);
         }
     }

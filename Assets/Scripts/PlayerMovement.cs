@@ -32,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        //Make sure your object has a RigidBody
         rb.velocity = new Vector3(moveDirection.x * moveSpeed, 0, moveDirection.z * moveSpeed);
     }
 }
