@@ -29,8 +29,6 @@ player cube reaches a FinishPad inside our FinishPad.cs script.
 
 11) Create some camera controls using the arrow keys to allow the player to navigate around our custom maps (Check out Rick's lecture(s) here on this topic in our 3D course ___________________).
 
-12) Use the switch and button switch prefabs found in our prefab folder to create some custom logic that destroys correlating game objects if a player presses the button.  
-	e.g., a doorway that's destroyed on after the player moves over the pad. 
 
 
 
